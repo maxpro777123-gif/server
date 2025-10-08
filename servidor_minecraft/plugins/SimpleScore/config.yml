@@ -1,0 +1,19 @@
+## Main Config
+version: 4
+language: en
+checkForUpdates: true
+
+## Worlds Configuration
+worlds:
+  '[\w\s\-]*': [ 'default' ]
+
+## Advanced Settings
+taskUpdateTime: 1
+scoreboardTaskAsync: true
+
+## Scoreboards
+scoreboards:
+  default:
+    title: "&6Tiempo Jugado"
+    lines:
+      - "Tiempo: %playtime_minutes% min"
